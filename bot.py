@@ -6,7 +6,7 @@ import os
 
 bot = commands.Bot(command_prefix='!', case_insensitive=True)
 bot.remove_command('help')
-
+token = open("botToken.txt", "r").readline()
 
 @bot.command(aliases = ['commands'])
 async def help(ctx):
@@ -117,4 +117,4 @@ async def on_ready():
     print("Bot is ready.")
 
 
-bot.run("NjQzMDA2NjQ3NTgwNjIyODYw.XcfqXA.Nx76ZK6dIY9FwMGt5y3aEN8hRlA")
+bot.run(token)
