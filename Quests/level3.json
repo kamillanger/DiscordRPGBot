@@ -1,0 +1,10 @@
+{
+  "name": "level3",
+  "description": "Longest quest with best rewards.",
+  "goldReward": {
+    "min": 90,
+    "max": 100
+  },
+  "xpReward": 50,
+  "duration": 8
+}

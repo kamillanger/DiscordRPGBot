@@ -1,0 +1,10 @@
+{
+  "name": "level2",
+  "description": "Medium quest with decent rewards.",
+  "goldReward": {
+    "min": 40,
+    "max": 50
+  },
+  "xpReward": 25,
+  "duration": 4
+}

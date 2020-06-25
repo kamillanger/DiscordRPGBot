@@ -1,0 +1,10 @@
+{
+  "name": "level1", 
+  "description": "Fastest quest with small reward.", 
+  "goldReward": {
+    "min": 5, 
+    "max": 10
+  }, 
+  "xpReward": 10, 
+  "duration": 2
+}
